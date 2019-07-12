@@ -6,12 +6,12 @@ This project aims to provide a way to have a browser react to changes in a list 
 
 ![Live Preview](demo/live_preview_text.gif)
 
-To see a full demo check the [video]().
+To see a full demo check the [video](https://youtu.be/wPPut1VDIj4).
 
 
 ## Dependencies
 
-You will need to built it from source. The source is the lit file, a file that following the ideas of [Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html).
+You will need to build it from source. The source is the lit file, a file that following the ideas of [Literate Programming](https://www-cs-faculty.stanford.edu/~knuth/lp.html).
 
 I used the [Literate](https://github.com/zyedidia/Literate) compiler to compile the lit file.
 
@@ -19,6 +19,15 @@ The browser I used was the [surf](https://surf.suckless.org/) browser from the s
 
 To detect changes made in files inotifywait is used, so you will need to install the **inotify-tools** package.
 
+#### ArchLinux
+```sh
+sudo pacman -S inotify-tools
+```
+
+#### Debian
+```sh
+sudo apt-get install inotify-tools
+```
 
 ## Installation
 
